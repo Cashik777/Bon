@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обзор игровых платформ 2025</title>
+    <style>
+        :root {
+            --primary: #2568a1;
+            --secondary: #e67e22;
+            --dark: #2c3e50;
+            --light: #f5f7fa;
+            --success: #27ae60;
+        }
+        body {
+            font-family: 'Open Sans', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: var(--light);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: var(--dark);
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .disclaimer {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            border: 1px solid #f5c6cb;
+        }
+        .category-title {
+            font-size: 1.8em;
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 10px;
+            margin: 40px 0 20px;
+        }
+        .platform-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .platform-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .platform-card:hover {
+            transform: translateY(-5px);
+        }
+        .platform-header {
+            background: var(--primary);
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.3em;
+        }
+        .platform-content {
+            padding: 20px;
+        }
+        .platform-feature {
+            margin-bottom: 12px;
+            display: flex;
+        }
+        .feature-title {
+            font-weight: 700;
+            color: var(--secondary);
+            min-width: 120px;
+        }
+        .more-btn {
+            display: block;
+            background: var(--success);
+            color: white;
+            text-align: center;
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 700;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .more-btn:hover {
+            background: #2ecc71;
+        }
+        .rating {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        @media (max-width: 900px) {
+            .platform-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 600px) {
+            .platform-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Лучшие игровые платформы 2025</h1>
+            <p>Информационный обзор развлекательных ресурсов</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="disclaimer">
+            <strong>Внимание:</strong> Данный сайт является исключительно информационным ресурсом. Мы не предоставляем услуги азартных игр и не принимаем платежи. Материалы предназначены для лиц 18+.
+        </div>
+
+        <div class="category-title">🎁 Популярные платформы</div>
+        <div class="platform-grid">
+            <!-- Платформа 1 -->
+            <div class="platform-card">
+                <div class="platform-header">Игровая платформа A</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.8/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 500+ вариантов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Разнообразный контент
+                    </div>
+                    <a href="/platform-a-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 2 -->
+            <div class="platform-card">
+                <div class="platform-header">Игровая платформа B</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.5/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 700+ вариантов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Качественная графика
+                    </div>
+                    <a href="/platform-b-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 3 -->
+            <div class="platform-card">
+                <div class="platform-header">Игровая платформа C</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.7/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 1000+ вариантов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Удобный интерфейс
+                    </div>
+                    <a href="/platform-c-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-title">🎡 Платформы с игровыми автоматами</div>
+        <div class="platform-grid">
+            <!-- Платформа 4 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа D</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.4/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 500+ автоматов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Тематические подборки
+                    </div>
+                    <a href="/platform-d-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 5 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа E</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.6/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 1500+ автоматов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Регулярные обновления
+                    </div>
+                    <a href="/platform-e-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 6 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа F</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.3/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Игры:</span> 2000+ автоматов
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Инновационные решения
+                    </div>
+                    <a href="/platform-f-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-title">♠️ Платформы с живыми дилерами</div>
+        <div class="platform-grid">
+            <!-- Платформа 7 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа G</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.5/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Формат:</span> Реальные дилеры
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Высокое качество трансляций
+                    </div>
+                    <a href="/platform-g-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 8 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа H</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.2/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Формат:</span> Азиатские игры
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Эксклюзивные столы
+                    </div>
+                    <a href="/platform-h-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+            
+            <!-- Платформа 9 -->
+            <div class="platform-card">
+                <div class="platform-header">Платформа I</div>
+                <div class="platform-content">
+                    <div class="platform-feature">
+                        <span class="feature-title">Рейтинг:</span> <span class="rating">9.4/10</span>
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Формат:</span> Игровые шоу
+                    </div>
+                    <div class="platform-feature">
+                        <span class="feature-title">Особенности:</span> Интерактивные элементы
+                    </div>
+                    <a href="/platform-i-info" class="more-btn">Подробнее</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Информационный портал об игровых платформах. Все права защищены.</p>
+            <p>Материалы предназначены для лиц старше 18 лет. Ответственность за использование информации лежит на посетителях сайта.</p>
+        </div>
+    </footer>
+</body>
+</html>
